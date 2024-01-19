@@ -9,6 +9,7 @@ vim.api.nvim_set_keymap("n", "<S-Tab>", ":BufferLineCyclePrev<CR>", { noremap = 
 vim.api.nvim_set_keymap("n", "j", "jzz", { noremap = true, silent = true })
 vim.api.nvim_set_keymap("n", "k", "kzz", { noremap = true, silent = true })
 vim.api.nvim_set_keymap("n", "<A-f>", ":CellularAutomaton make_it_rain<CR>", { noremap = true, silent = true })
+vim.api.nvim_set_keymap("n", "<A-n>", ":AerialToggle<CR>", { noremap = true, silent = true })
 vim.keymap.set("n", "<A-m>", function()
   require("codewindow").toggle_minimap()
 end)
