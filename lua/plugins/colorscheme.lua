@@ -1,12 +1,12 @@
 return {
   -- add gruvbox
-  { "AlexvZyl/nordic.nvim" },
-
+  --{ "AlexvZyl/nordic.nvim" },
+  { "RRethy/nvim-base16" },
   -- Configure LazyVim to load gruvbox
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "nordic",
+      colorscheme = "base16-nord",
     },
   },
 }
