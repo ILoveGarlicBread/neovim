@@ -7,3 +7,9 @@ vim.api.nvim_create_autocmd({ "FileType" }, {
     vim.b.autoformat = false
   end,
 })
+
+vim.api.nvim_create_autocmd({ "FileType" }, {
+  callback = function()
+    vim.diagnostic.config({ virtual_text = false })
+  end,
+})
