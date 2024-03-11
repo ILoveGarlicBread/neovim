@@ -7,8 +7,7 @@
 ## Installation 
 Using ssh:
 ``` bash
-git clone git@github.com:ILoveGarlicBread/neovim.git ~/
-.config/nvim/
+git clone git@github.com:ILoveGarlicBread/neovim.git ~/.config/nvim/
 ```
 
 
