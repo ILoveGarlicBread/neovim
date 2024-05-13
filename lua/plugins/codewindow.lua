@@ -1,6 +1,7 @@
 return {
   {
     "gorbit99/codewindow.nvim",
+    lazy = true,
     config = function()
       require("codewindow").setup({
         {
