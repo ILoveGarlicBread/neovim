@@ -15,3 +15,5 @@ vim.api.nvim_set_keymap("n", "<A-n>", ":AerialToggle<CR>", { noremap = true, sil
 vim.keymap.set("n", "<A-m>", function()
   require("codewindow").toggle_minimap()
 end)
+
+vim.keymap.set("n", "-", "<CMD>Oil<CR>", { desc = "Open parent directory" })
