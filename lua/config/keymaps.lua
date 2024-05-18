@@ -1,7 +1,7 @@
 -- Keymaps are automatically loaded on the VeryLazy event
 -- Default keymaps that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/keymaps.lua
 -- Add any additional keymaps here
-vim.keymap.set("", "<Leader>d", require("lsp_lines").toggle, { desc = "Toggle lsp_lines" })
+vim.keymap.set("", "<Leader>n", require("lsp_lines").toggle, { desc = "Toggle lsp_lines" })
 vim.api.nvim_set_keymap("n", "<C-n>", ":NvimTreeToggle<CR>", { noremap = true, silent = true })
 vim.api.nvim_set_keymap("n", "<A-c>", ":set cc=40<CR>", { noremap = true, silent = true })
 vim.api.nvim_set_keymap("n", "<A-b>", ":Block<CR>", { noremap = true, silent = true })
