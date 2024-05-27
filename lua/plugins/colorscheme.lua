@@ -1,7 +1,8 @@
 return {
   --{ "AlexvZyl/nordic.nvim" },
   { "RRethy/nvim-base16" },
-  {"rmehri01/onenord.nvim"},
+  {"neanias/everforest-nvim"},
+  {"catppuccin/nvim"},
   -- Configure LazyVim to load gruvbox
   {
     "LazyVim/LazyVim",
