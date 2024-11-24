@@ -1,4 +1,3 @@
---vim.g.db = 'oracle://s1_student4_18:Ora4120@db1.fb2.frankfurt-university.de:1521:info01'
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not vim.loop.fs_stat(lazypath) then
   -- bootstrap lazy.nvim
